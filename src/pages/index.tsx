@@ -3,6 +3,7 @@ import * as React from "react";
 import Layout from "@/components/layout/Layout";
 import Seo from "@/components/Seo";
 import LandingPage from "@/components/LandingPage";
+import About from "@/components/About";
 
 /**
  * SVGR Support
@@ -24,6 +25,7 @@ export default function HomePage() {
 
       <main>
         <LandingPage />
+        <About />
       </main>
     </Layout>
   );
