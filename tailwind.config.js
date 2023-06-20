@@ -25,6 +25,10 @@ module.exports = {
         },
         dark: '#222222',
       },
+      backgroundImage: {
+        landingPage:
+          "url('https://pbs.twimg.com/media/Fy6m5Y0acAEnL8l?format=jpg&name=900x900')",
+      },
       keyframes: {
         flicker: {
           '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
