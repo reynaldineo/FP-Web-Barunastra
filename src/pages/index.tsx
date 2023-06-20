@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout";
 import Seo from "@/components/Seo";
 import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
+import Navbar from "@/components/Navbar";
 
 /**
  * SVGR Support
@@ -24,6 +25,7 @@ export default function HomePage() {
       <Seo />
 
       <main>
+        <Navbar />
         <LandingPage />
         <About />
       </main>
