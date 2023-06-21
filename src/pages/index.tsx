@@ -5,6 +5,7 @@ import Seo from "@/components/Seo";
 import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
+import Division from "@/components/Division";
 
 /**
  * SVGR Support
@@ -28,6 +29,7 @@ export default function HomePage() {
         <Navbar />
         <LandingPage />
         <About />
+        <Division />
       </main>
     </Layout>
   );
