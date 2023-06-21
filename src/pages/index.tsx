@@ -6,6 +6,7 @@ import LandingPage from "@/components/LandingPage";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Division from "@/components/Division";
+import Member from "@/components/Member";
 
 /**
  * SVGR Support
@@ -30,6 +31,7 @@ export default function HomePage() {
         <LandingPage />
         <About />
         <Division />
+        <Member />
       </main>
     </Layout>
   );
