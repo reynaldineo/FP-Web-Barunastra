@@ -7,6 +7,7 @@ import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Division from "@/components/Division";
 import Member from "@/components/Member";
+import Achievement from "@/components/Achievement";
 
 /**
  * SVGR Support
@@ -32,6 +33,7 @@ export default function HomePage() {
         <About />
         <Division />
         <Member />
+        <Achievement />
       </main>
     </Layout>
   );
