@@ -20,7 +20,7 @@ export default function DivisionItem({
           {title}
         </h3>
         <p className="pb-4 pt-2 text-center text-white">{description}</p>
-        <Link href={divisionUrl}>
+        <Link href={divisionUrl} scroll={false}>
           <p className="cursor-pointer rounded-lg bg-white py-3 px-3 text-center text-lg font-bold text-gray-700">
             Member
           </p>

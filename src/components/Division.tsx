@@ -30,7 +30,7 @@ export default function Division() {
               title="Mechanical"
               backgroundImg={mecImg}
               description=""
-              divisionUrl="#mec"
+              divisionUrl="#mech"
             />
             <DivisionItem
               title="Non-Technical"
