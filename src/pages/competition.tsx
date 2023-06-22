@@ -8,6 +8,7 @@ import MainCompetition from "@/components/MainCompetition";
 import AboutCompetition from "@/components/AboutCompetition";
 import ElectricalDiagram from "@/components/ElectricalDiagram";
 import Robot from "@/components/Robot";
+import RobotPreview from "@/components/RobotPreview";
 
 /**
  * SVGR Support
@@ -32,6 +33,7 @@ export default function HomePage() {
         <MainCompetition />
         <AboutCompetition />
         <Robot />
+        <RobotPreview />
         <ElectricalDiagram />
         <Footer />
       </main>
