@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import MainCompetition from "@/components/MainCompetition";
 import AboutCompetition from "@/components/AboutCompetition";
 import ElectricalDiagram from "@/components/ElectricalDiagram";
+import Robot from "@/components/Robot";
 
 /**
  * SVGR Support
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Navbar />
         <MainCompetition />
         <AboutCompetition />
+        <Robot />
         <ElectricalDiagram />
         <Footer />
       </main>
