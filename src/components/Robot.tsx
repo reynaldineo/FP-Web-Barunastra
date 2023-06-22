@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./buttons/Button";
 
+import nalaPataka from "../../public/images/nalaPataka.png";
 import robotHero from "../../public/images/robotHero.png";
 import modularity from "../../public/images/modularity.png";
 
@@ -12,9 +13,13 @@ export default function Robot() {
       <div className="bg-slate-200  pb-20">
         <div className="min-h-screen w-full items-center justify-center">
           <div className="mx-auto w-[70%] rounded-3xl bg-zinc-800">
-            <p className="p-5 pt-14 pb-10 text-center text-[20px] font-extrabold uppercase tracking-widest text-slate-50 md:pb-12 md:text-[50px]">
-              Nala Petaka
-            </p>
+            <Image
+              src={nalaPataka}
+              alt="robotHero"
+              width={200}
+              height={50}
+              className="mx-auto mb-2 py-2 pt-3"
+            />
 
             <div>
               <div className="grid px-5 text-white md:grid-cols-2 md:gap-2">
@@ -29,7 +34,7 @@ export default function Robot() {
                 <div>
                   <div className="py-2 px-5">
                     <div className="items-start justify-start py-1 text-left ">
-                      <h3 className="font-medium ">Nala Petaka</h3>
+                      <h3 className="font-medium ">Nala Pataka</h3>
                     </div>
                     <div className="text-md mt-1  flex flex-col text-justify font-normal">
                       <p className="py-2">
