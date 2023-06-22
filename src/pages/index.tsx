@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Division from "@/components/Division";
 import Member from "@/components/Member";
 import Achievement from "@/components/Achievement";
+import Footer from "@/components/Footer";
 
 /**
  * SVGR Support
@@ -34,6 +35,7 @@ export default function HomePage() {
         <Division />
         <Member />
         <Achievement />
+        <Footer />
       </main>
     </Layout>
   );
