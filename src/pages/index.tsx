@@ -25,8 +25,7 @@ import Footer from "@/components/Footer";
 export default function HomePage() {
   return (
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle="Barunastra" />
 
       <main>
         <Navbar />

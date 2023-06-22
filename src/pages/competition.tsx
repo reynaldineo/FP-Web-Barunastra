@@ -26,8 +26,7 @@ import Timeline from "@/components/Timeline";
 export default function HomePage() {
   return (
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle="Barunastra" siteName="| Competition" />
 
       <main>
         <Navbar />
