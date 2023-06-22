@@ -29,27 +29,27 @@ export default function Navbar() {
                   Home
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="#about" scroll={false}>
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
                   About Us
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="#member" scroll={false}>
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
                   Team
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="#achievement" scroll={false}>
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
                   Achievement
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/competition">
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
                   Competition
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="#contact" scroll={false}>
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
                   Contact
                 </li>
@@ -99,25 +99,25 @@ export default function Navbar() {
                 <Link href="/">
                   <li className="py-4 text-sm hover:text-slate-300">Home</li>
                 </Link>
-                <Link href="/">
+                <Link href="#about" scroll={false}>
                   <li className="py-4 text-sm hover:text-slate-300">
                     About Us
                   </li>
                 </Link>
-                <Link href="/">
+                <Link href="#member" scroll={false}>
                   <li className="py-4 text-sm hover:text-slate-300">Team</li>
                 </Link>
-                <Link href="/">
+                <Link href="#achievement" scroll={false}>
                   <li className="py-4 text-sm hover:text-slate-300">
                     Achievement
                   </li>
                 </Link>
-                <Link href="/">
+                <Link href="/competition">
                   <li className="py-4 text-sm hover:text-slate-300">
                     Competition
                   </li>
                 </Link>
-                <Link href="/">
+                <Link href="#contact" scroll={false}>
                   <li className="py-4 text-sm hover:text-slate-300">Contact</li>
                 </Link>
               </ul>
