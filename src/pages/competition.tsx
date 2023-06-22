@@ -5,6 +5,7 @@ import Seo from "@/components/Seo";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MainCompetition from "@/components/MainCompetition";
+import AboutCompetition from "@/components/AboutCompetition";
 
 /**
  * SVGR Support
@@ -27,6 +28,7 @@ export default function HomePage() {
       <main>
         <Navbar />
         <MainCompetition />
+        <AboutCompetition />
         <Footer />
       </main>
     </Layout>
