@@ -45,6 +45,10 @@
     background-image: url("/images/landingPage.jpg");
   }
 
+  .bg-competition {
+    background-image: url("/images/competition3.jpg");
+  }
+
   .cursor-newtab {
     cursor: url("/images/new-tab.png") 10 10, pointer;
   }
