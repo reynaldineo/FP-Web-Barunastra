@@ -10,13 +10,13 @@ import alfaImg from "../../public/images/member/alfa.jpeg";
 import farrasImg from "../../public/images/member/farras.jpg";
 import suryaImg from "../../public/images/member/surya.jpg";
 import dhinakaraImg from "../../public/images/member/dhinakara.jpg";
-// import agungImg from "../../public/images/member/";
+import agungImg from "../../public/images/member/agung.jpeg";
 
 export default function Member() {
   return (
     <section id="member">
-      <div className="min-h-screen items-center justify-center bg-slate-100">
-        <p className="p-10 pt-20 pb-10 text-center text-[30px] font-extrabold uppercase tracking-widest md:text-[50px]">
+      <div className="min-h-screen items-center justify-center bg-slate-100 pb-24">
+        <p className="p-10 pt-20 pb-10 text-center text-[29px] font-extrabold uppercase tracking-widest md:text-[50px]">
           Team Leader
         </p>
         <div className="flex items-center justify-center">
@@ -32,7 +32,7 @@ export default function Member() {
 
         <p
           id="epr"
-          className="mt-10 p-10 pt-20 pb-10 text-center text-[25px] font-extrabold uppercase tracking-widest md:text-[50px]"
+          className="mt-10 p-10 pt-20 pb-10 text-center text-[24px] font-extrabold uppercase tracking-widest md:text-[50px]"
         >
           Electro & Programming
         </p>
@@ -90,7 +90,7 @@ export default function Member() {
 
         <p
           id="ntc"
-          className="mt-10 p-10 pt-20 pb-10 text-center text-[30px] font-extrabold uppercase tracking-widest md:text-[50px]"
+          className="mt-10 p-10 pt-20 pb-10 text-center text-[25px] font-extrabold uppercase tracking-widest md:text-[50px]"
         >
           Non Technical
         </p>
@@ -110,7 +110,7 @@ export default function Member() {
             />
             <MemberItem
               memberName="Agung Dwi O."
-              memberImg={suryaImg}
+              memberImg={agungImg}
               memberDivision="Sosial Branding"
               memberJurusan="Sistem Informasi 22"
             />
