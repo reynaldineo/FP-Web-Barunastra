@@ -9,6 +9,7 @@ import AboutCompetition from "@/components/AboutCompetition";
 import ElectricalDiagram from "@/components/ElectricalDiagram";
 import Robot from "@/components/Robot";
 import RobotPreview from "@/components/RobotPreview";
+import Timeline from "@/components/Timeline";
 
 /**
  * SVGR Support
@@ -35,6 +36,7 @@ export default function HomePage() {
         <Robot />
         <RobotPreview />
         <ElectricalDiagram />
+        <Timeline />
         <Footer />
       </main>
     </Layout>
