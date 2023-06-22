@@ -6,10 +6,10 @@ import ntcImg from "../../public/images/ofc.png";
 
 export default function Division() {
   return (
-    <section>
-      <div className="w-full bg-slate-200">
+    <section id="division">
+      <div className="w-full bg-slate-200 py-20 md:py-8">
         <div className="mx-auto max-w-[1240px] px-2 py-16">
-          <p className="text-zinc-950 my-5 text-center text-[40px] font-extrabold uppercase tracking-widest md:text-[50px]">
+          <p className="text-zinc-950 py-5 text-center text-[35px] font-extrabold uppercase tracking-widest md:text-[50px]">
             Our Division
           </p>
           <div className="py-4">
@@ -23,20 +23,20 @@ export default function Division() {
             <DivisionItem
               title="Electro & Programming"
               backgroundImg={eprImg}
-              description="-"
-              divisionUrl="/"
+              description=""
+              divisionUrl="#epr"
             />
             <DivisionItem
               title="Mechanical"
               backgroundImg={mecImg}
-              description="-"
-              divisionUrl="/"
+              description=""
+              divisionUrl="#mec"
             />
             <DivisionItem
               title="Non-Technical"
               backgroundImg={ntcImg}
-              description="-"
-              divisionUrl="/"
+              description=""
+              divisionUrl="#ntc"
             />
           </div>
         </div>
