@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -19,12 +20,12 @@ export default function LandingPage() {
             technology advancement.”
           </p>
           <div className="mr-5 mt-5 text-right font-semibold md:pb-2 md:font-medium">
-            <a
-              href=""
-              className=" rounded-2xl bg-white p-2 px-5 text-slate-900"
+            <Link
+              href="/"
+              className=" rounded-2xl bg-white p-2 px-5 text-slate-900 hover:bg-zinc-800 hover:text-white"
             >
               Our Intro
-            </a>
+            </Link>
           </div>
         </div>
       </div>
