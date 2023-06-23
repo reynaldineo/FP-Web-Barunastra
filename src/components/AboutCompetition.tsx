@@ -6,7 +6,7 @@ import kktcbnLogo from "../../public/images/kkctbn.png";
 
 export default function AboutCompetition() {
   return (
-    <section>
+    <section id="kktcbn">
       <div className="bg-slate-200 ">
         <p className="p-10 pt-20 text-center text-[25px] font-extrabold uppercase tracking-widest md:pb-10 md:text-[50px]">
           About KKTCBN

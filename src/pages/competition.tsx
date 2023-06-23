@@ -10,6 +10,7 @@ import ElectricalDiagram from "@/components/ElectricalDiagram";
 import Robot from "@/components/Robot";
 import RobotPreview from "@/components/RobotPreview";
 import Timeline from "@/components/Timeline";
+import NavbarCompe from "@/components/NavbarCompe";
 
 /**
  * SVGR Support
@@ -29,7 +30,7 @@ export default function HomePage() {
       <Seo templateTitle="Barunastra" siteName="| Competition" />
 
       <main>
-        <Navbar />
+        <NavbarCompe />
         <MainCompetition />
         <AboutCompetition />
         <Robot />
