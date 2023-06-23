@@ -9,7 +9,7 @@ export default function AboutCompetition() {
     <section id="kktcbn">
       <div className="bg-slate-200 ">
         <p className="p-10 pt-20 text-center text-[25px] font-extrabold uppercase tracking-widest md:pb-10 md:text-[50px]">
-          About KKTCBN
+          About KKCTBN
         </p>
 
         <div className="grid grid-cols-1 pt-1 pb-32 md:grid-cols-2 md:px-40 md:pt-14">
@@ -30,7 +30,7 @@ export default function AboutCompetition() {
             </p>
             <div className="mx-14 pt-5 pb-10 md:mx-28">
               <div className=" rounded-xl bg-zinc-800 px-2 py-2 text-center text-[14px] font-medium text-slate-50 md:px-5 md:text-[17px]">
-                <Link href="/">More About KKTCBN</Link>
+                <Link href="/">More About KKCTBN</Link>
               </div>
             </div>
           </div>

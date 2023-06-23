@@ -43,7 +43,7 @@ export default function Timeline() {
                       </p>
                       <p className="py-5">
                         At this stage, all team members gathered to discuss
-                        plans for the 2023 KKTCBN competition, both from a
+                        plans for the 2023 KKCTBN competition, both from a
                         technical and non-technical side.
                       </p>
                       <p className="pb-5">

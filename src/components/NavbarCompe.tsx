@@ -27,7 +27,7 @@ export default function NavbarCompe() {
               </Link>
               <Link href="#kktcbn" scroll={false}>
                 <li className="ml-10 text-sm uppercase hover:border-b hover:text-slate-300">
-                  About KKTCBN
+                  About KKCTBN
                 </li>
               </Link>
               <Link href="#robotHero" scroll={false}>
@@ -97,7 +97,7 @@ export default function NavbarCompe() {
                 </Link>
                 <Link href="#kktcbn" scroll={false}>
                   <li className="py-4 text-sm hover:text-slate-300">
-                    About KKTCBN
+                    About KKCTBN
                   </li>
                 </Link>
                 <Link href="#robotHero" scroll={false}>
