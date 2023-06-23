@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import barunLogo from "../../public/images/logoBarun.png";
 
 export default function Navbar() {
   const [nav, setNav] = useState<boolean>(false);
@@ -15,12 +16,7 @@ export default function Navbar() {
       <div className="fixed z-[100] h-20 w-full bg-zinc-900 shadow-xl ">
         <div className="flex h-full w-full items-center justify-between px-5 2xl:px-16">
           <Link href="/">
-            <Image
-              src="/../public/images/Logo_Barunastra_Putih.png"
-              alt="logo"
-              width={125}
-              height={50}
-            />
+            <Image src={barunLogo} alt="logo" width={125} height={50} />
           </Link>
           <div>
             <ul className="hidden font-medium text-white md:flex">
@@ -78,12 +74,7 @@ export default function Navbar() {
             <div>
               <div className="flex items-center justify-between">
                 <Link href="/">
-                  <Image
-                    src="/../public/images/Logo_Barunastra_Putih.png"
-                    alt="logo"
-                    width={87}
-                    height={35}
-                  />
+                  <Image src={barunLogo} alt="logo" width={87} height={35} />
                 </Link>
                 <div
                   onClick={handleNav}
