@@ -21,7 +21,10 @@ export default function Footer() {
             Barunastra ITS
           </p>
           <div className="flex pb-2">
-            <Link href="/" className="pr-3">
+            <Link
+              href="https://www.instagram.com/barunastra_its/"
+              className="pr-3"
+            >
               <BsInstagram />
             </Link>
             <Link href="/" className="pr-3">
@@ -30,10 +33,16 @@ export default function Footer() {
             <Link href="/" className="pr-3">
               <BsTwitter />
             </Link>
-            <Link href="/" className="pr-3">
+            <Link
+              href="https://www.linkedin.com/company/team-barunastra-its/mycompany/"
+              className="pr-3"
+            >
               <BsLinkedin />
             </Link>
-            <Link href="/" className="pr-3">
+            <Link
+              href="https://www.youtube.com/@barunastraits9743"
+              className="pr-3"
+            >
               <BsYoutube />
             </Link>
           </div>
