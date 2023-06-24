@@ -11,6 +11,9 @@ import Robot from "@/components/Robot";
 import RobotPreview from "@/components/RobotPreview";
 import Timeline from "@/components/Timeline";
 import NavbarCompe from "@/components/NavbarCompe";
+import RobotInside from "@/components/RobotInside";
+import GeneralArrange from "@/components/GeneralArrange";
+import SideView from "@/components/SideView";
 
 /**
  * SVGR Support
@@ -35,6 +38,9 @@ export default function HomePage() {
         <AboutCompetition />
         <Robot />
         <RobotPreview />
+        <RobotInside />
+        <GeneralArrange />
+        <SideView />
         <ElectricalDiagram />
         <Timeline />
         <Footer />
