@@ -21,7 +21,7 @@ export default function LandingPage() {
           </p>
           <div className="mr-5 mt-5 text-right font-semibold md:pb-2 md:font-medium">
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/12qAYUISKwu527bml5H0yArWGOgGtkPr6/view?usp=drivesdk"
               className=" rounded-2xl bg-white p-2 px-5 text-slate-900 hover:bg-zinc-800 hover:text-white"
             >
               Our Intro
